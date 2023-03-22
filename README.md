@@ -1,5 +1,10 @@
 # python-data-assignment
 
+#το query με mysql
+select * from finance_liquor_sales
+where date between '2016-01-01' and '2019-12-31';
+
+#o κώδικας python
 import pandas as pd
 import numpy as np
 data=pd.read_csv('finance_liquor_sales.csv')
